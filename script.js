@@ -6,7 +6,7 @@
     
     // Cria um link temporário que expira após 5 minutos
     setTimeout(function() {
-      console.log("A URL temporária expirou.");
+      console.log("Aqui não pai kkkkk");
       
       // Aqui você pode remover o áudio ou tornar o link inacessível
       alert("O link do áudio expirou. Por favor, tente novamente.");
@@ -28,7 +28,7 @@
   document.addEventListener("keydown", function(e) {
     if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
       e.preventDefault(); // Impede o atalho de abrir o DevTools
-      alert("Ferramentas de desenvolvedor estão desabilitadas.");
+      alert("Nem tenta pai KKKKKKKKKKKKK");
     }
   });
 
